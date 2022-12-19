@@ -29,7 +29,6 @@ func main() {
 
 	symbol := [...]string{USD: "$"}
 	fmt.Println(USD, symbol[USD])
-
 }
 
 func zero(ptr *[32]byte) {
